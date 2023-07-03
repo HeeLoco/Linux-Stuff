@@ -1,0 +1,13 @@
+[Unit]
+Description=VNC mit TightVNCServer
+After=syslog.target network.target
+
+[Service]
+Type=forking
+User=heeloco
+#PAMName=login
+ExecStart=/usr/bin/vncserver -depth 24 -geometry 1280x720 :1
+#ExecStop=/usr/bin/vncserver -kill :1
+
+[Install]
+WantedBy=multi-user.target
