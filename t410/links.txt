@@ -1,0 +1,15 @@
+
+#general
+https://www.thinkwiki.org/wiki/ThinkWiki
+
+#tlp - battery
+https://linrunner.de/tlp/installation/ubuntu.html
+
+#special buttons 
+https://wiki.gentoo.org/wiki/ACPI/ThinkPad-special-buttons
+
+#tpm issue
+https://askubuntu.com/questions/1178285/how-to-solve-ima-error-communicating-to-tpm-chip-messages-during-boot
+
+#close lid
+https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid
