@@ -1,0 +1,1 @@
+@reboot eott /opt/microsoft/powershell/7/pwsh -File "/home/eott/scripts/try-tmux.ps1"
