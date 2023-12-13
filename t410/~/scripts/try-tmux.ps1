@@ -9,6 +9,7 @@ tmux rename-window -t $sessionName 'work';
 
 #some settings
 tmux setw -g mode-keys vi
+tmux set -g mouse
 
 #create new window(s)
 #######monitor
