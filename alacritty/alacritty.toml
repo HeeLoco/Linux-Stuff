@@ -4,8 +4,8 @@ decorations = "Full" #none geht leider nicht so gut fuer daily usage
 decorations_theme_variant = "Dark"
 
 [shell]
-#args = ['--login']
-program = "pwsh"
+args = ['pwsh']
+program = "wsl"
 
 
 [cursor]
@@ -50,4 +50,4 @@ cyan = "#61D6D6"
 white = "#F2F2F2"
 
 [selection]
-#save_to_clipboard = true
+save_to_clipboard = true
