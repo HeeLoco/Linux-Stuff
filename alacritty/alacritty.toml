@@ -4,9 +4,8 @@ decorations = "Full" #none geht leider nicht so gut fuer daily usage
 decorations_theme_variant = "Dark"
 
 [shell]
-args = ['pwsh']
+args = ['tmux attach -t main']
 program = "wsl"
-
 
 [cursor]
 style.shape = "Beam"
