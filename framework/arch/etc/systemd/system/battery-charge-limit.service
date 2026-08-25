@@ -1,0 +1,9 @@
+[Unit]
+Description=Set battery charge limit to 80% (Framework EC)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/framework_tool --charge-limit 80
+
+[Install]
+WantedBy=multi-user.target
